@@ -5,7 +5,7 @@ font-family: arial;
 }
 #wrap { width: 1172px; margin: 0 auto; }
 
-
+/* Начало первого блока */
 #one{
      margin-top: 90px; /* Отступ сверху */
     
@@ -116,3 +116,6 @@ margin-top: 360px;
   height: 32px;
   z-index: 4;
 }
+/* конец первого блока */
+
+/* начало второго блока */
