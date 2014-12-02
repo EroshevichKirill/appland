@@ -3,7 +3,10 @@ body {
 background: url(img/bg.png);
 font-family: arial; 
 }
-#wrap { width: 1172px; margin: 0 auto; }
+#wrap {
+    width: 1172px; 
+    margin:0 auto; 
+}
 
 /* Начало первого блока */
 #one{
@@ -119,3 +122,142 @@ margin-top: 360px;
 /* конец первого блока */
 
 /* начало второго блока */
+#second{
+ background-color: rgb(152, 211, 97);
+  position: absolute;
+    margin-top: 850px;
+  width: 100%;
+  height: 700px;  
+  
+}
+
+.text1 {
+  font-size: 35px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+    width: 632px;
+  text-align: center;
+  position: absolute;
+margin-left: 270px;
+  z-index: 25;
+}
+
+.text2 {
+  font-size: 20px;
+  font-family: "ProximaNova";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+ margin-top: 65px;
+    margin-left: 120px;
+  width: 970px;
+  height: 31.986px;
+  z-index: 31;
+}
+
+.Shape_4 {
+  position: absolute;
+  margin-top:  300px;
+    margin-left: 170px;
+  width: 83px;
+  height: 70px;
+  z-index: 28;
+}
+
+.Shape_3 {
+  position: absolute;
+    margin-top: 300px;
+    margin-left: 520px;
+  width: 89px;
+  height: 70px;
+  z-index: 27;
+}
+
+.Shape_2 {
+  position: absolute;
+margin-top: 300px;
+    margin-left: 902px;
+  width: 70px;
+  height: 69px;
+  z-index: 23;
+}
+
+.Very_Smart {
+  font-size: 28px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+margin-top: 440px;
+    margin-left: 137px;
+  z-index: 29;
+}
+
+.Responsive {
+  font-size: 28px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+margin-top: 440px;
+    margin-left: 500px;
+  z-index: 24;
+}
+
+.Crisp___clear {
+  font-size: 28px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+margin-top: 440px;
+    margin-left: 870px;
+  z-index: 22;
+}
+
+.Lorem_Ipsum{
+  font-size: 20px;
+  font-family: "ProximaNova";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+margin-top: 500px;
+    margin-left: 73px;
+  width: 266px;
+  height: 90px;
+  z-index: 30;
+}
+
+.Lorem_Ipsum2 {
+  font-size: 20px;
+  font-family: "ProximaNova";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+margin-top: 500px;
+    margin-left: 430px;
+  width: 266px;
+  height: 90px;
+  z-index: 26;
+}
+
+.Lorem_Ipsum3 {
+  font-size: 20px;
+  font-family: "ProximaNova";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+margin-top: 500px;
+    margin-left: 800px;
+  width: 266px;
+  height: 90px;
+  z-index: 25;
+}
