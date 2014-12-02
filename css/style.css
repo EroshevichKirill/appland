@@ -1,0 +1,118 @@
+
+body { 
+background: url(img/bg.png);
+font-family: arial; 
+}
+#wrap { width: 1172px; margin: 0 auto; }
+
+
+#one{
+     margin-top: 90px; /* Отступ сверху */
+    
+}
+/*телефон*/
+#one_left{
+    float:left;
+}
+
+#one_right{
+    float:left;
+     margin-left: 160px; /* Отступ слева */
+    margin-top: 140px; /* Отступ сверху */
+}
+
+.Value {
+  font-size: 50px;
+  font-family: "ProximaNova";
+  color: rgb(185, 185, 185);
+  line-height: 0.4;
+  text-align: justifyLeft;
+  position: absolute;
+ margin-left: 25px;
+    margin-top: 60px;
+  z-index: 8;
+}
+
+.text {
+  font-size: 30px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(185, 185, 185);
+  line-height: 1.3;
+  text-align: left;
+  position: absolute;
+  margin-top: 250px;
+    margin-left: 2px;
+  width: 490px;
+  height: 60px;
+  z-index: 9;
+}
+
+
+.download_text {
+  font-size: 22px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(104, 200, 48);
+}
+
+#button{
+margin-top: 360px;
+
+}
+
+.download {
+  border-radius: 30px;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(108, 200, 47);
+  background-color: rgba(13, 72, 98, 0);
+  position: absolute;
+   width: 230px;
+  height: 60px;
+ 
+  z-index: 11;
+}
+
+.learn_more_text {
+  font-size: 22px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(255, 255, 255);
+}
+
+.learn_more {
+  border-radius: 30px;
+  background-color: rgb(185, 185, 185);
+  position: absolute;
+    margin-left: 270px;
+  width: 230px;
+  height: 60px;
+  z-index: 12;
+}
+
+#icon{
+    margin-top: 500px; 
+}
+.aple {
+  
+  width: 26px;
+  height: 32px;
+  z-index: 6;
+}
+
+.android {
+  
+  margin-left: 40px;
+  width: 28px;
+  height: 32px;
+  z-index: 5;
+}
+
+.win {
+  
+ margin-left: 40px;
+  width: 31px;
+  height: 32px;
+  z-index: 4;
+}
