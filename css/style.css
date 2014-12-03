@@ -1,4 +1,10 @@
 
+ @font-face {
+    font-family: ProximaNova; /* Гарнитура шрифта */
+    src: url(fonts/ProximaNovaSoft-Regular-webfont.ttf); /* Путь к файлу со шрифтом */
+   }
+
+
 body { 
 background: url(img/bg.png);
 font-family: arial; 
@@ -33,7 +39,6 @@ font-family: arial;
   position: absolute;
  margin-left: 25px;
     margin-top: 60px;
-  z-index: 8;
 }
 
 .text {
@@ -47,7 +52,6 @@ font-family: arial;
     margin-left: 2px;
   width: 490px;
   height: 60px;
-  z-index: 9;
 }
 
 
@@ -59,7 +63,6 @@ font-family: arial;
 
 #button{
 margin-top: 360px;
-
 }
 
 .download {
@@ -74,8 +77,6 @@ margin-top: 360px;
   position: absolute;
    width: 230px;
   height: 60px;
- 
-  z-index: 11;
 }
 
 .learn_more_text {
@@ -91,7 +92,6 @@ margin-top: 360px;
     margin-left: 270px;
   width: 230px;
   height: 60px;
-  z-index: 12;
 }
 
 #icon{
@@ -101,7 +101,6 @@ margin-top: 360px;
   
   width: 26px;
   height: 32px;
-  z-index: 6;
 }
 
 .android {
@@ -109,7 +108,6 @@ margin-top: 360px;
   margin-left: 40px;
   width: 28px;
   height: 32px;
-  z-index: 5;
 }
 
 .win {
@@ -117,7 +115,6 @@ margin-top: 360px;
  margin-left: 40px;
   width: 31px;
   height: 32px;
-  z-index: 4;
 }
 /* конец первого блока */
 
@@ -128,7 +125,6 @@ margin-top: 360px;
     margin-top: 850px;
   width: 100%;
   height: 700px;  
-  
 }
 
 .text1 {
@@ -140,7 +136,7 @@ margin-top: 360px;
   text-align: center;
   position: absolute;
 margin-left: 270px;
-  z-index: 25;
+    margin-top: 50px;
 }
 
 .text2 {
@@ -150,11 +146,10 @@ margin-left: 270px;
   line-height: 1.2;
   text-align: center;
   position: absolute;
- margin-top: 65px;
+ margin-top: 100px;
     margin-left: 120px;
   width: 970px;
   height: 31.986px;
-  z-index: 31;
 }
 
 .Shape_4 {
@@ -163,7 +158,6 @@ margin-left: 270px;
     margin-left: 170px;
   width: 83px;
   height: 70px;
-  z-index: 28;
 }
 
 .Shape_3 {
@@ -172,7 +166,6 @@ margin-left: 270px;
     margin-left: 520px;
   width: 89px;
   height: 70px;
-  z-index: 27;
 }
 
 .Shape_2 {
@@ -181,7 +174,6 @@ margin-top: 300px;
     margin-left: 902px;
   width: 70px;
   height: 69px;
-  z-index: 23;
 }
 
 .Very_Smart {
@@ -193,7 +185,6 @@ margin-top: 300px;
   position: absolute;
 margin-top: 440px;
     margin-left: 137px;
-  z-index: 29;
 }
 
 .Responsive {
@@ -205,7 +196,6 @@ margin-top: 440px;
   position: absolute;
 margin-top: 440px;
     margin-left: 500px;
-  z-index: 24;
 }
 
 .Crisp___clear {
@@ -217,7 +207,6 @@ margin-top: 440px;
   position: absolute;
 margin-top: 440px;
     margin-left: 870px;
-  z-index: 22;
 }
 
 .Lorem_Ipsum{
@@ -231,7 +220,6 @@ margin-top: 500px;
     margin-left: 73px;
   width: 266px;
   height: 90px;
-  z-index: 30;
 }
 
 .Lorem_Ipsum2 {
@@ -245,7 +233,6 @@ margin-top: 500px;
     margin-left: 430px;
   width: 266px;
   height: 90px;
-  z-index: 26;
 }
 
 .Lorem_Ipsum3 {
@@ -259,12 +246,12 @@ margin-top: 500px;
     margin-left: 800px;
   width: 266px;
   height: 90px;
-  z-index: 25;
 }
 /* конец второй блок */
 
 /* начало третий блок */
 .third{
+    background-color: rgb(232, 232, 237);
   position: absolute;
     margin-top: 1540px;
   width: 100%;
@@ -277,7 +264,6 @@ margin-top: 60px;
     margin-left: 10px;
   width: 312px;
   height: 539px;
-  z-index: 41;
 }
 
 .Layer_32_png {
@@ -287,7 +273,6 @@ margin-top: 40px;
     margin-left: 170px;
   width: 386px;
   height: 657px;
-  z-index: 43;
 }
 
 .Vector_Smart_Object_copy_2_png {
@@ -296,7 +281,6 @@ margin-top: 40px;
     margin-left: 175px;
   width: 369px;
   height: 651px;
-  z-index: 44;
 }
 
 .Features_availalbe_with_Easy_perfect_free_app_ {
@@ -305,7 +289,6 @@ margin-top: 40px;
   color: rgb(114, 114, 114);
 margin-top: 175px;
     margin-left: 645px;
-  z-index: 35;
 }
 
 .Shape_12 {
@@ -314,7 +297,6 @@ margin-top: 90px;
     margin-left: 651px;
   width: 39px;
   height: 39px;
-  z-index: 46;
 }
 
 .Shape_11 {
@@ -323,7 +305,6 @@ margin-top: 200px;
     margin-left: 651px;
   width: 39px;
   height: 39px;
-  z-index: 46;
 }
 
 .Shape_14 {
@@ -332,7 +313,6 @@ margin-top: 300px;
     margin-left: 651px;
   width: 39px;
   height: 39px;
-  z-index: 46;
 }
 
 .Shape_3_copy {
@@ -341,7 +321,6 @@ margin-top: 420px;
     margin-left: 651px;
   width: 39px;
   height: 39px;
-  z-index: 46;
 }
 
 .Beautiful__modern_design_Duis_bibendum_diam_non {
@@ -355,7 +334,6 @@ margin-top: 90px;
     margin-left: 725px;
   width: 368px;
   height: 38px;
-  z-index: 38;
 }
 .Duis_bibendum_diam_non {
 margin-top: 115px;
@@ -379,7 +357,6 @@ margin-top: 190px;
     margin-left: 725px;
   width: 368px;
   height: 38px;
-  z-index: 37;
 }
 
 .Duis_bibendum_diam_non_era_facilaisis_tincid {
@@ -403,7 +380,6 @@ margin-top: 300px;
     margin-left: 725px;
   width: 368px;
   height: 38px;
-  z-index: 39;
 }
 .Duis_bibendum_diam_non_era_facilaisis_tincid1 {
 margin-top: 325px;
@@ -426,7 +402,7 @@ margin-top: 420px;
     margin-left: 725px;
   width: 368px;
   height: 38px;
-  z-index: 40;
+
 }
 
 .Duis_bibendum_diam_non_era_facilaisis_tincid2 {
@@ -440,3 +416,173 @@ color: rgb(188, 182, 182)
   position: absolute;
 }
 /* Конец третьего блока */
+
+/* Начало четвертого блока */
+.fourth{
+
+     position: absolute;
+    margin-top: 200px;
+  width: 100%;
+  height: 600px; 
+}
+
+.cov {
+  font-size: 36px;
+  font-family: "Stencil";
+  line-height: 0.667;
+  position: absolute;
+margin-top: 100px;
+    margin-left: 570px;
+}
+._Sed_sagittis {
+  font-size: 25px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(140, 148, 148);
+  text-align: center;
+  position: absolute;
+margin-top: 180px;
+    margin-left: 270px;
+      width: 670px;
+  height: 90px;
+}
+.round_png1 {
+  border-radius: 50%;
+  position: absolute;
+margin-top: 350px;
+    margin-left: 110px;
+  width: 73px;
+  height: 73px;
+}
+.layer1 {
+ 
+  border-radius: 50%;
+  position: absolute;
+margin-top: 355px;
+    margin-left: 114px;
+  width: 88px;
+  height: 88px;
+}
+
+.round_png2 {
+  border-radius: 50%;
+  position: absolute;
+margin-top: 350px;
+    margin-left: 490px;
+  width: 73px;
+  height: 73px;
+}
+.layer2 {
+  border-radius: 50%;
+  position: absolute;
+margin-top: 355px;
+    margin-left: 495px;
+  width: 88px;
+  height: 88px;
+}
+.round_png3 {
+  border-radius: 50%;
+  position: absolute;
+margin-top: 350px;
+    margin-left: 850px;
+  width: 73px;
+  height: 73px;
+}
+.layer3 {
+  border-radius: 50%;
+  position: absolute;
+margin-top: 355px;
+    margin-left: 855px;
+  width: 88px;
+  height: 88px;
+}
+
+.Wells_Riley {
+  font-size: 24px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(152, 211, 97);
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+margin-top: 360px;
+    margin-left: 200px;
+}
+.Anthony_Lagoon {
+  font-size: 24px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(152, 211, 97);
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+margin-top: 360px;
+    margin-left: 580px;
+}
+
+.Anna_Yeaman {
+  font-size: 24px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(152, 211, 97);
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+margin-top: 360px;
+    margin-left: 950px;
+}
+
+.Creative_Director_ {
+  font-size: 18px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(140, 148, 148);
+  line-height: 1.333;
+  text-align: left;
+  position: absolute;
+    margin-top: 390px;
+    margin-left: 953px;
+}
+.photographer {
+  font-size: 18px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(140, 148, 148);
+  line-height: 1.333;
+  text-align: left;
+  position: absolute;
+    margin-top: 390px;
+    margin-left: 583px;
+}
+.Designer {
+  font-size: 18px;
+  font-family: "ProximaNovaSoft";
+  color: rgb(140, 148, 148);
+  line-height: 1.333;
+  text-align: left;
+  position: absolute;
+    margin-top: 390px;
+    margin-left: 203px;
+}
+.dot_copy_png {
+  border-radius: 50%;
+  background-color: rgb(152, 211, 97);
+  position: absolute;
+ margin-top: 550px;
+    margin-left: 570px;
+  width: 10px;
+  height: 11px;
+}
+.dot_png {
+  border-radius: 50%;
+  background-color: rgb(140, 148, 148);
+  position: absolute;
+margin-top: 550px;
+    margin-left: 590px;
+  width: 11px;
+  height: 11px;
+}
+.dot_png1 {
+  border-radius: 50%;
+  background-color: rgb(140, 148, 148);
+  position: absolute;
+margin-top: 550px;
+    margin-left: 610px;
+  width: 11px;
+  height: 11px;
+}
+
