@@ -1,13 +1,13 @@
 
  @font-face {
-    font-family: ProximaNova; /* Гарнитура шрифта */
-    src: url(fonts/ProximaNovaSoft-Regular-webfont.ttf); /* Путь к файлу со шрифтом */
+    font-family: ProximaNovaSoft; /* Гарнитура шрифта */
+    src: url(font/mark_simonson_-_proxima_nova_soft_bold-webfont.ttf) format('truetype'); /* Путь к файлу со шрифтом */
    }
 
 
 body { 
 background: url(img/bg.png);
-font-family: ProximaNova; 
+font-family: ProximaNovaSoft, Arial;  
 }
 #wrap {
     width: 1172px; 
@@ -32,7 +32,7 @@ font-family: ProximaNova;
 
 .Value {
   font-size: 50px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
   color: rgb(185, 185, 185);
   line-height: 0.4;
   text-align: justifyLeft;
@@ -141,7 +141,7 @@ margin-left: 270px;
 
 .text2 {
   font-size: 20px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
   color: rgb(255, 255, 255);
   line-height: 1.2;
   text-align: center;
@@ -211,7 +211,7 @@ margin-top: 440px;
 
 .Lorem_Ipsum{
   font-size: 20px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
   color: rgb(255, 255, 255);
   line-height: 1.2;
   text-align: center;
@@ -224,7 +224,7 @@ margin-top: 500px;
 
 .Lorem_Ipsum2 {
   font-size: 20px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
   color: rgb(255, 255, 255);
   line-height: 1.2;
   text-align: center;
@@ -237,7 +237,7 @@ margin-top: 500px;
 
 .Lorem_Ipsum3 {
   font-size: 20px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
   color: rgb(255, 255, 255);
   line-height: 1.2;
   text-align: center;
@@ -325,7 +325,7 @@ margin-top: 420px;
 
 .Beautiful__modern_design_Duis_bibendum_diam_non {
   font-size: 25px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
   color: rgb(152, 211, 97);
   line-height: 1.2;
   text-align: left;
@@ -339,7 +339,7 @@ margin-top: 90px;
 margin-top: 115px;
     margin-left: 725px;
       font-size: 20px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
 color: rgb(188, 182, 182)
   line-height: 1.2;
   text-align: left;
@@ -348,7 +348,7 @@ color: rgb(188, 182, 182)
 
 .Easy_to_customize{
   font-size: 25px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
   color: rgb(152, 211, 97);
   line-height: 1.2;
   text-align: left;
@@ -363,7 +363,7 @@ margin-top: 190px;
 margin-top: 220px;
     margin-left: 725px;
       font-size: 20px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
 color: rgb(188, 182, 182)
   line-height: 1.2;
   text-align: left;
@@ -371,7 +371,7 @@ color: rgb(188, 182, 182)
 }
 .Developer_Friendly {
   font-size: 25px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
   color: rgb(152, 211, 97);
   line-height: 1.2;
   text-align: left;
@@ -385,7 +385,7 @@ margin-top: 300px;
 margin-top: 325px;
     margin-left: 725px;
       font-size: 20px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
 color: rgb(188, 182, 182)
   line-height: 1.2;
   text-align: left;
@@ -394,7 +394,7 @@ color: rgb(188, 182, 182)
 
 .Fully_Responsive {
   font-size: 20px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
   color: rgb(152, 211, 97);
   line-height: 1.2;
   text-align: left;
@@ -409,7 +409,7 @@ margin-top: 420px;
 margin-top: 0px;
     margin-left: 725px;
       font-size: 20px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
 color: rgb(188, 182, 182)
   line-height: 1.2;
   text-align: left;
@@ -615,7 +615,7 @@ margin-top: 150px;
 
 .Subscribe_to_our_ {
   font-size: 23px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
   color: rgb(104, 104, 104);
   line-height: 1.091;
   text-align: center;
@@ -663,7 +663,7 @@ position: absolute;
 }
 .text3{
     font-size: 20px;
-  font-family: "ProximaNova";
+  font-family: "ProximaNovaSoft";
   color: rgba(140, 148, 148, 0.659);
      margin-top: 58px;   
     margin-left: 353px;
